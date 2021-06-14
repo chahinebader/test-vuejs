@@ -6,6 +6,7 @@ import EditBrand from './components/EditBrand/EditBrand'
 Vue.use(VueRouter);
 Vue.config.productionTip = false
 const routes = [
+  {path: '/' , name:"ListBrand",component: ListBrand},
   {path: '/listbrand' , name:"ListBrand",component: ListBrand},
   {path: '/editbrand/:requestId', name:"EditBrand",component: EditBrand}
 ]
